@@ -29,26 +29,17 @@ This project provides an API to extract legal citations from **PDF documents** o
 
 ⚙️ Setup & Run
 1. Create a virtual environment
-bash
-Copy
-Edit
+
 python3 -m venv venv
 source venv/bin/activate
 2. Install requirements
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 3. Run the API
-bash
-Copy
-Edit
+
 python app.py
 App will run at:
 
-cpp
-Copy
-Edit
 http://0.0.0.0:5000
 📦 Deployment Tips
 Tested on Ubuntu EC2 (t3.micro)
@@ -58,5 +49,5 @@ Open ports 22, 5000 in security group
 You can use screen, tmux, or a WSGI server (like gunicorn) for production
 
 ✍️ Author
-Zeeshan – AI Developer & Citation Model Trainer
+Faizan – AI Developer & Citation Model Trainer
 For deployment help, contact via [Upwork/Freelance]
