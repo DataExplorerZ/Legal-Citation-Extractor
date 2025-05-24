@@ -1,0 +1,10 @@
+
+---
+
+## ✅ `requirements.txt`
+
+```txt
+Flask
+spacy==3.7.5
+pdfplumber
+pandas
